@@ -1,0 +1,12 @@
+.name{
+    color: rgb(238, 162, 162);
+}
+.nav{
+    margin-right: 5px;
+    color: rgba(123, 155, 49, 0.815);
+}
+.nav:hover{
+    background-color: rgb(156, 145, 44);
+    color: black;
+    border-radius: 5px;
+}
