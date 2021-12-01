@@ -25,7 +25,7 @@ const ManageServices = () => {
     }
     return (
         <div>
-            <h3>Manage Services</h3>
+            <h3 className="m-5">Manage Services</h3>
             {
                 Services.map(service => <div
                     key={service._id}>
