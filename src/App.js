@@ -10,6 +10,7 @@ import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import AddService from './Pages/AddService/AddService';
 import ManageServices from './Pages/ManageServices/ManageServices';
 import Footer from './Pages/Shared/Header/Footer';
+import Confirm from './Pages/Booking/Booking/Confirm/Confirm';
 
 
 function App() {
@@ -30,6 +31,9 @@ function App() {
             </Route>
             <Route path="/booking/:serviceId">
               <Booking></Booking>
+            </Route>
+            <Route path="/booking/confirm">
+              <Confirm></Confirm>
             </Route>
             <Route path="/addService">
               <AddService></AddService>

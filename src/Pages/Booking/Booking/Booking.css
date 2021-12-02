@@ -1,0 +1,10 @@
+.ser{
+    background-color: rgb(204, 238, 252);
+    display: flex;
+    padding: 35px;
+    border-radius: 20px;
+}
+.detail ,.name{
+    text-align: left;
+    margin-left: 25px;
+} 
